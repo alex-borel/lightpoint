@@ -1,0 +1,101 @@
+#map {
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.shop-add {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.show-map {
+  position: fixed;
+  top: 40px;
+  left: 0px;
+}
+
+.shop {
+  display: inline-block;
+  position: relative;
+  width: 260px;
+  height: 360px;
+  margin-top: 40px;
+  padding: 1px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #ff867c;
+}
+
+.working-hours {
+  display: inline-block;
+  width: 90px;
+}
+
+.working {
+  display: block;
+}
+
+.num-div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.shop h3 {
+  margin-top: 60px;
+  text-align: center;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.shop-street {
+  height: 90px;
+  margin-top: 20px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.shop p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.btn {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.table {
+  word-wrap: break-word;
+}
+
+td {
+  max-width: 80px;
+  border: 1px solid silver;
+}
+
+@media (max-width: 1200px) {
+  .col-md-6 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #root {
+    padding-top: 80px;
+  }
+}
